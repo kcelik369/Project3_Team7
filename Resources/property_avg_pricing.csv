@@ -1,0 +1,290 @@
+property_type,neighbourhood,price
+Apartment,Alki,163.9
+Apartment,Atlantic,89.4
+Apartment,Ballard,119.8
+Apartment,Belltown,206.6
+Apartment,Bitter Lake,82.7
+Apartment,Brighton,46.9
+Apartment,Broadview,96.8
+Apartment,Broadway,182.1
+Apartment,Bryant,95.5
+Apartment,Capitol Hill,134.4
+Apartment,Cedar Park,72.1
+Apartment,Central Business District,217.3
+Apartment,Columbia City,107.0
+Apartment,Dunlap,61.9
+Apartment,Eastlake,109.2
+Apartment,Fauntleroy,82.1
+Apartment,First Hill,153.9
+Apartment,Fremont,128.4
+Apartment,Gatewood,81.8
+Apartment,Genesee,96.5
+Apartment,Green Lake,155.7
+Apartment,Greenwood,90.8
+Apartment,Haller Lake,112.7
+Apartment,Harrison/Denny-Blaine,110.9
+Apartment,High Point,203.5
+Apartment,Highland Park,120.0
+Apartment,Interbay,117.9
+Apartment,International District,136.9
+Apartment,Laurelhurst,93.2
+Apartment,Leschi,91.6
+Apartment,Lower Queen Anne,145.6
+Apartment,Madison Park,98.2
+Apartment,Madrona,102.2
+Apartment,Magnolia,170.3
+Apartment,Maple Leaf,88.1
+Apartment,Mathews Beach,75.1
+Apartment,Minor,122.7
+Apartment,Montlake,127.7
+Apartment,Mount Baker,98.7
+Apartment,North Admiral,121.5
+Apartment,North Beach/Blue Ridge,85.0
+Apartment,North Beacon Hill,87.5
+Apartment,North Delridge,90.8
+Apartment,Olympic Hills,95.0
+Apartment,Phinney Ridge,125.6
+Apartment,Pike Market,190.9
+Apartment,Pike Place Market,203.3
+Apartment,Pinehurst,248.4
+Apartment,Pioneer Square,162.1
+Apartment,Portage Bay,118.3
+Apartment,Queen Anne,134.9
+Apartment,Ravenna,115.8
+Apartment,Riverview,75.8
+Apartment,Roosevelt,102.8
+Apartment,Seaview,78.4
+Apartment,Seward Park,76.9
+Apartment,South Delridge,54.0
+Apartment,South Lake Union,189.9
+Apartment,Stevens,130.2
+Apartment,The Junction,104.8
+Apartment,University District,98.4
+Apartment,Victory Heights,70.4
+Apartment,View Ridge,119.5
+Apartment,Wallingford,111.0
+Apartment,Wedgewood,74.7
+Apartment,Westlake,150.2
+Apartment,Windermere,160.1
+Apartment,Yesler Terrace,138.9
+Bed & Breakfast,Ballard,84.5
+Bed & Breakfast,Belltown,90.0
+Bed & Breakfast,Capitol Hill,112.3
+Bed & Breakfast,Cedar Park,82.5
+Bed & Breakfast,Crown Hill,65.0
+Bed & Breakfast,First Hill,113.7
+Bed & Breakfast,Fremont,185.0
+Bed & Breakfast,Leschi,125.0
+Bed & Breakfast,Magnolia,120.0
+Bed & Breakfast,Mount Baker,84.7
+Bed & Breakfast,North Admiral,179.0
+Bed & Breakfast,North Beacon Hill,89.0
+Bed & Breakfast,Phinney Ridge,249.1
+Bed & Breakfast,Ravenna,67.3
+Bed & Breakfast,Roosevelt,90.0
+Bed & Breakfast,Seward Park,47.6
+Bed & Breakfast,South Delridge,101.2
+Bed & Breakfast,Stevens,141.0
+Boat,Ballard,75.0
+Boat,Crown Hill,150.0
+Boat,Interbay,97.0
+Boat,Queen Anne,85.0
+Boat,Westlake,461.6
+Bungalow,Atlantic,70.0
+Bungalow,Ballard,66.4
+Bungalow,Bryant,79.0
+Bungalow,Greenwood,95.7
+Bungalow,Minor,70.0
+Bungalow,North Beach/Blue Ridge,95.0
+Bungalow,North Beacon Hill,103.9
+Bungalow,Queen Anne,233.8
+Bungalow,Stevens,131.9
+Cabin,Atlantic,99.4
+Cabin,Ballard,91.2
+Cabin,Capitol Hill,173.9
+Cabin,Columbia City,105.7
+Cabin,Fremont,92.6
+Cabin,Haller Lake,100.0
+Cabin,Laurelhurst,100.0
+Cabin,Minor,58.6
+Cabin,North Admiral,92.8
+Cabin,North Beacon Hill,106.1
+Cabin,Portage Bay,302.6
+Cabin,Queen Anne,57.7
+Camper/RV,Ballard,78.6
+Camper/RV,Fremont,82.0
+Camper/RV,Industrial District,265.0
+Camper/RV,Lower Queen Anne,145.0
+Camper/RV,Maple Leaf,50.0
+Camper/RV,Mount Baker,99.0
+Camper/RV,Queen Anne,52.6
+Chalet,Greenwood,62.0
+Chalet,North Admiral,131.7
+Condominium,Atlantic,127.7
+Condominium,Ballard,91.0
+Condominium,Belltown,265.8
+Condominium,Broadway,85.0
+Condominium,Capitol Hill,147.0
+Condominium,Central Business District,132.5
+Condominium,Eastlake,129.0
+Condominium,First Hill,184.2
+Condominium,Fremont,112.0
+Condominium,Greenwood,73.8
+Condominium,Interbay,165.2
+Condominium,Lower Queen Anne,105.9
+Condominium,Madison Park,70.0
+Condominium,Magnolia,280.0
+Condominium,Maple Leaf,65.0
+Condominium,Minor,176.0
+Condominium,North Admiral,320.3
+Condominium,Phinney Ridge,51.4
+Condominium,Pike Place Market,262.4
+Condominium,Pioneer Square,92.7
+Condominium,Portage Bay,150.0
+Condominium,Queen Anne,123.5
+Condominium,South Lake Union,107.0
+Condominium,University District,117.6
+Condominium,Westlake,250.0
+Condominium,Yesler Terrace,129.6
+Dorm,Pike Place Market,39.4
+House,Alki,240.8
+House,Arbor Heights,127.2
+House,Atlantic,139.5
+House,Ballard,131.5
+House,Belltown,167.1
+House,Bitter Lake,84.2
+House,Brighton,99.8
+House,Broadview,104.9
+House,Broadway,134.7
+House,Bryant,114.5
+House,Capitol Hill,136.8
+House,Cedar Park,131.2
+House,Columbia City,113.9
+House,Crown Hill,78.3
+House,Dunlap,94.3
+House,Eastlake,128.8
+House,Fairmount Park,370.0
+House,Fauntleroy,221.1
+House,Fremont,177.4
+House,Gatewood,128.3
+House,Genesee,128.1
+House,Georgetown,72.5
+House,Green Lake,171.3
+House,Greenwood,96.9
+House,Haller Lake,127.4
+House,Harrison/Denny-Blaine,138.3
+House,High Point,74.1
+House,Highland Park,86.9
+House,Holly Park,90.3
+House,Interbay,118.9
+House,International District,159.0
+House,Laurelhurst,139.9
+House,Leschi,157.5
+House,Licton Springs,86.9
+House,Lower Queen Anne,172.3
+House,Madison Park,207.1
+House,Madrona,200.5
+House,Magnolia,215.8
+House,Maple Leaf,90.8
+House,Mathews Beach,113.2
+House,Meadowbrook,104.9
+House,Minor,129.3
+House,Montlake,170.5
+House,Mount Baker,99.1
+House,North Admiral,153.3
+House,North Beach/Blue Ridge,141.0
+House,North Beacon Hill,98.1
+House,North College Park,99.0
+House,North Delridge,100.3
+House,Olympic Hills,62.7
+House,Phinney Ridge,127.2
+House,Pinehurst,125.0
+House,Portage Bay,324.2
+House,Queen Anne,258.4
+House,Rainier Beach,77.1
+House,Ravenna,120.2
+House,Riverview,78.3
+House,Roosevelt,129.2
+House,Roxhill,60.0
+House,Seaview,143.6
+House,Seward Park,117.4
+House,South Beacon Hill,131.3
+House,South Delridge,102.2
+House,South Park,128.4
+House,Stevens,102.3
+House,The Junction,102.9
+House,University District,132.6
+House,Victory Heights,84.8
+House,View Ridge,174.7
+House,Wallingford,143.7
+House,Wedgewood,97.8
+House,Westlake,142.9
+House,Windermere,284.4
+House,Yesler Terrace,179.0
+Loft,Alki,225.0
+Loft,Atlantic,150.9
+Loft,Ballard,108.3
+Loft,Belltown,151.2
+Loft,Bryant,93.2
+Loft,Capitol Hill,154.2
+Loft,Columbia City,87.4
+Loft,Fremont,118.4
+Loft,Georgetown,101.7
+Loft,Industrial District,320.0
+Loft,Interbay,95.9
+Loft,International District,102.8
+Loft,Lower Queen Anne,190.0
+Loft,Madrona,90.6
+Loft,Minor,351.6
+Loft,North Beacon Hill,110.2
+Loft,Pioneer Square,160.5
+Loft,Queen Anne,227.8
+Loft,South Lake Union,95.0
+Loft,View Ridge,49.0
+Loft,Wallingford,88.1
+Loft,Wedgewood,97.1
+Other,Central Business District,181.1
+Other,Fremont,138.5
+Other,Georgetown,74.3
+Other,Industrial District,164.1
+Other,International District,41.4
+Other,Madrona,85.0
+Other,Maple Leaf,126.0
+Other,Phinney Ridge,150.0
+Other,Rainier Beach,118.0
+Other,Ravenna,67.1
+Other,Stevens,50.0
+Other,University District,43.1
+Tent,Greenwood,25.0
+Tent,North Beacon Hill,65.0
+Townhouse,Alki,236.2
+Townhouse,Atlantic,148.3
+Townhouse,Ballard,121.0
+Townhouse,Bryant,69.7
+Townhouse,Capitol Hill,167.7
+Townhouse,Columbia City,67.8
+Townhouse,Fremont,95.7
+Townhouse,Gatewood,45.0
+Townhouse,Genesee,70.6
+Townhouse,Greenwood,125.2
+Townhouse,Haller Lake,40.2
+Townhouse,High Point,64.4
+Townhouse,Highland Park,53.0
+Townhouse,Holly Park,55.0
+Townhouse,Leschi,92.4
+Townhouse,Lower Queen Anne,287.6
+Townhouse,Madrona,158.4
+Townhouse,Magnolia,231.1
+Townhouse,Minor,191.6
+Townhouse,North Admiral,268.0
+Townhouse,North Beacon Hill,151.9
+Townhouse,North Delridge,70.0
+Townhouse,Queen Anne,103.7
+Townhouse,Roosevelt,59.0
+Townhouse,Stevens,179.6
+Townhouse,The Junction,104.2
+Townhouse,University District,79.5
+Townhouse,Wedgewood,95.7
+Treehouse,Dunlap,48.0
+Treehouse,Montlake,200.0
+Yurt,North Admiral,105.4
