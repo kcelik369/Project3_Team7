@@ -1,11 +1,24 @@
 # UC Berkeley Extension Data Analysis Project 3 - Team 7
 
-An overview of the project and its purpose. The project uses ETL workflows to ingest data into the database. The original dataset(s) are transformed prior to storing it in the database. The database contains 3817 entries that meets requirement of at least 100 unique records. Pandas DataFrame Kerim/Mari
+An overview of the project and its purpose:
 
 We are investigating a dataset for Seattle Airbnb data found on Kaggle (https://www.kaggle.com/datasets/airbnb/seattle).
-Original source of the data is here (http://insideairbnb.com/get-the-data/), which provides access to more recent data and for other cities.
+Original source of the data is here (http://insideairbnb.com/get-the-data/), which provides access to more recent data and for other cities. The original databases, stored in CSV files: listings, calendar and listing scores, contain over 100 entries each meeting project's requirement of utilizing dataset with at least 100 unique records.
 
-how to use and interact with the project
+The project uses ETL workflows to ingest data into the database. 
+A database is used to house the data (SQL, MongoDB, SQLite, etc.). The database has at least two tables (SQL) or collections (NoSQL).
+The project includes documentation of the ETL workflow with diagrams or ERD. 
+The project uses one additional library not covered in class related to data engineering. Kerim
+Flask API with JSON output Kerim
+
+Project doesn't include anny borrowed code.
+
+Limitations of the project:
+1. Our questions are limited to the ~2016 dataset;
+2. Given access to more cities' data, what might change or not?
+2. Given access to more recent Seattl data, what might change or not?
+
+How to use and interact with the project
 We hope to create a set of tables that could be used to answer the following questions:
 - What factors are most strongly linked with good ratings / high prices / frequent bookings?
 - What outliers exist for the above major factors?
@@ -14,9 +27,7 @@ We hope to create a set of tables that could be used to answer the following que
 - If you want to start hosting in Seattle (or generally), what factors correlate with success or positive host ratings?
 - Are hosts with many Airbnb listings significantly different from hosts with fewer listings?
 
-1. Our questions are limited to the ~2016 dataset;
-2. Given access to more cities' data, what might change or not?
-2. Given access to more recent Seattl data, what might change or not?
+
 
 efforts for ethical considerations made in the project
 Data ethics: maybe provide a boolean flag for devs to keep this data?
@@ -32,27 +43,7 @@ Other Seattle datasets to add additional info / minor factors to evaluate on?
 - Redfin (?): walk score, transit score, etc.
 - Zillow (?)
 
-
-
-
-
-
-
-
-A database is used to house the data (SQL, MongoDB, SQLite, etc.). The database has at least two tables (SQL) or collections (NoSQL). Kylie
-
- 
-
 **The project documents the choice of the database used and why. (5 points)**
-
-The project includes documentation of the ETL workflow with diagrams or ERD. Elizabeth
-
-
-
-The project uses one additional library not covered in class related to data engineering. Kerim
-Flask API with JSON output Kerim
-
-No borrowed code
 
 
 Team roles:
@@ -73,6 +64,8 @@ Elizabeth:
 Kylie:
  1. Created Database and Tables in PgAdmin with SQL code
  2. Uploaded CSV files into PgAdmin to store in SQL Database
+
+Collaborative effort to build a slide deck for presentation.
 
 
 
