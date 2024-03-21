@@ -1,6 +1,6 @@
 # UC Berkeley Extension Data Analysis Project 3 - Team 7
 
-An overview of the project and its purpose
+An overview of the project and its purpose. The project uses ETL workflows to ingest data into the database. The original dataset(s) are transformed prior to storing it in the database. The database contains 3817 entries that meets requirement of at least 100 unique records. Pandas DataFrame Kerim/Mari
 
 We are investigating a dataset for Seattle Airbnb data found on Kaggle (https://www.kaggle.com/datasets/airbnb/seattle).
 Original source of the data is here (http://insideairbnb.com/get-the-data/), which provides access to more recent data and for other cities.
@@ -35,9 +35,9 @@ Other Seattle datasets to add additional info / minor factors to evaluate on?
 
 
 
-The project uses ETL workflows to ingest data into the database. (10 points)
 
-The original dataset(s) are transformed prior to storing it in the database. The database contains 3817 entries that meets requirement of at least 100 unique records. Pandas DataFrame Kerim/Mari
+
+
 
 A database is used to house the data (SQL, MongoDB, SQLite, etc.). The database has at least two tables (SQL) or collections (NoSQL). Kylie
 
@@ -55,6 +55,24 @@ Flask API with JSON output Kerim
 No borrowed code
 
 
+Team roles:
+
+Kerim:
+ 1. Led the Team to success
+ 2. Transformed
+
+Mari:
+ 1. Transformed original Calendar CSV in Jupyter Notebook to present average monthy pricing for each listing id
+ 2. Merged original Calendar dataset with Listings_cleaned to pull in property type and neighborhood
+ 3. Performed further analysis of the average pricing based on the combination of the 2 factors, mentioned above: property type and neighborhood
+
+Elizabeth:
+ 1. Build ERD for all connected tables of the Dataset
+ 2. Assigned data types and primary keys in ERD
+
+Kylie:
+ 1. Created Database and Tables in PgAdmin with SQL code
+ 2. Uploaded CSV files into PgAdmin to store in SQL Database
 
 
 
