@@ -50,6 +50,7 @@ Kerim:
  1. Led the Team to success
  1. Transformed
  1. Seaborn data visualization creation
+ 1. Built a Flask App to serve JSONified data
 
 Mari:
  1. Transformed original Calendar CSV in Jupyter Notebook to present average monthy pricing for each listing id
