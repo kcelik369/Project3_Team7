@@ -44,9 +44,9 @@ Data ethics: maybe provide a boolean flag for devs to keep this data?
 Team roles:
 
 Kerim:
- 1. Led the Team to success
- 2. Transformed original listings_id CSV in Jupyter Notebook
- 3. Created sub databases: listings_cleaned, hosts and listing_scores
+ 1. Transformed original listings_id CSV in Jupyter Notebook
+ 2. Created sub databases: listings_cleaned, hosts and listing_scores
+ 3. Incorporated a code utilizing seaborn library to present examples of visualization of the dataset
  4. Built a Flask App to store JSONified data
 
 Mari:
