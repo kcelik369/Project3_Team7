@@ -29,14 +29,12 @@ The cleaned and transformed dataset could be used to answer the following questi
 - Are hosts with many Airbnb listings significantly different from hosts with fewer listings?
 
 
-efforts for ethical considerations made in the project
-Data ethics: maybe provide a boolean flag for devs to keep this data?
-1. Names
-1. Streets
-1. VERY specific lat, long
-1. Dataset source: Kaggle
-2. Reliability?
-2. Accurate picture of AirBnb data? Already transformed?
+Efforts for ethical considerations made in the project:
+
+1. Protect the privacy of hosts and guests names, addresses, etc.  Limit access or remove personal contact information.
+2. Be aware of biases in guest reviews and ensure that predictive modeling does not inadvertently perpetuate biases or disadvantage certain hosts. 
+3. Consider the impact of AirBnB on the local community - from noise complaints  to housing availability and affordability - when analyzing data such as price trends and review comments. 
+
 
 **The project documents the choice of the database used and why. (5 points)**
 
