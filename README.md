@@ -45,7 +45,9 @@ Team roles:
 
 Kerim:
  1. Led the Team to success
- 2. Transformed
+ 2. Transformed original listings_id CSV in Jupyter Notebook
+ 3. Created sub databases: listings_cleaned, hosts and listing_scores
+ 4. Built a Flask App to store JSONified data
 
 Mari:
  1. Transformed original Calendar CSV in Jupyter Notebook to present average monthy pricing for each listing id
