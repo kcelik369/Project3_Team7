@@ -16,7 +16,7 @@ Project doesn't include any borrowed code.
 Limitations of the project:
 1. Our questions are limited to the ~2016 dataset;
 2. Given access to more cities' data, what might change or not?
-2. Given access to more recent Seattl data, what might change or not?
+2. Given access to more recent Seattle data, what might change or not?
 
 How to use and interact with the project:
 
