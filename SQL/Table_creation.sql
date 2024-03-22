@@ -54,12 +54,9 @@ CREATE TABLE listings_cleaned (
     require_guest_phone_verification BOOLEAN   NOT NULL,
     avg_availability FLOAT   NOT NULL,
 	
-	FOREIGN KEY (host_id) REFERENCES hosts(host_id),
-	FOREIGN KEY (property_type,neighbourhood) REFERENCES  property_avg_pricing(property_type,neighbourhood)
-
+	
 );
 
-DROP TABLE listing_scores
 CREATE TABLE listing_scores (
 	score_id SERIAL PRIMARY KEY,
     id INT NOT NULL,
@@ -79,11 +76,9 @@ CREATE TABLE listing_scores (
 
 CREATE TABLE calendar_average_pricing (
     
-	calendar_no SERIAL PRIMARY KEY,
 	listing_id INT NOT NULL,
-    price FLOAT   NOT NULL,
     month INT   NOT NULL,
-    year INT   NOT NULL,
+    price FLOAT   NOT NULL,
 
     FOREIGN KEY (listing_id) REFERENCES listings_cleaned(id)
 );
