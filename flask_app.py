@@ -23,7 +23,7 @@ def home():
     return listings_explain + '<br>' + hosts_explain + '<br>' + cols_explain
 
 # ===== LISTINGS-TABLE =====
-@app.route("/listings")
+@app.route("/api/v1.0/listings")
 def listingsInfo():
     sample_explain = 'To get a sample of this table\'s data, go to "/listings/sample"'
     full_explain = 'To get all of this table\'s data, go to "/listings/full"'
@@ -32,17 +32,17 @@ def listingsInfo():
     return sample_explain + '<br>' + full_explain + '<br>' + lcols_explain + '<br><br>' + lcols_indices
 
 
-@app.route("/listings/sample")
+@app.route("/api/v1.0/listings/sample")
 def sampleListings():
     return json.loads(listings.head(20).to_json())
 
-@app.route("/listings/full")
+@app.route("/api/v1.0/listings/full")
 def serveListings():
     return json.loads(listings.to_json())
 
 # takes a set of column indicess split by commas and returns just those columns
 # with more time, we might use user input, such as checkboxes to select columns to fetch
-@app.route("/listings/cols/<deliniated>")
+@app.route("/api/v1.0/listings/cols/<deliniated>")
 def colsListings(deliniated):
     str_nums = deliniated.split(',')
     int_nums = [int(s) for s in str_nums] # convert split strs to ints
@@ -57,7 +57,7 @@ def colsListings(deliniated):
 # ===== ===== =====
 
 # ===== HOSTS-TABLE =====
-@app.route("/hosts")
+@app.route("/api/v1.0/hosts")
 def hostsInfo():
     sample_explain = 'To get a sample of this table\'s data, go to "/hosts/sample"'
     full_explain = 'To get all of this table\'s data, go to "/hosts/full"'
@@ -65,15 +65,15 @@ def hostsInfo():
     hcols_indices = f"The columns of the hosts table with their indices are {host_dict}"
     return sample_explain + '<br>' + full_explain + '<br>' + hcols_explain + '<br><br>' + hcols_indices
 
-@app.route("/hosts/sample")
+@app.route("/api/v1.0/hosts/sample")
 def sampleHosts():
     return json.loads(hosts.head(20).to_json())
 
-@app.route("/hosts/full")
+@app.route("/api/v1.0/hosts/full")
 def serveHosts():
     return json.loads(hosts.to_json())
 
-@app.route("/hosts/cols/<deliniated>")
+@app.route("/api/v1.0/hosts/cols/<deliniated>")
 def colsHosts(deliniated):
     str_nums = deliniated.split(',')
     int_nums = [int(s) for s in str_nums] # convert split strs to ints

@@ -26,6 +26,7 @@ The cleaned and transformed dataset could be used to answer the following questi
 - Are hosts with many Airbnb listings significantly different from hosts with fewer listings?
 
 ## How to use
+- IMPORTANT NOTE: when using our data, we chose to fill missing or invalid data values with -1, -1.0, or the empty string (depending on the data type of the column). You may want to exclude these values in certain cases; or first look at the presence of these values to understand where they appear. For an example of how to exclude such data, you can look at "seaborn.ipynb", which often removes such values to create a more accurate visualization of the data.
 - The extract and load steps of the project can be performed by running the "extractX.ipynb" files found at the top level of this repository; these also contain our DataFrame displays of various data. 
 - We have included documentation for our load step via SQL files and a document in the file named "SQL" as well as supplementary ERD documentation in the file named "ERD". 
 - All Seaborn visualizations can be replicated by running the file "seaborn.ipynb"; this file also demonstrates utilization of multiple tables at once. 
