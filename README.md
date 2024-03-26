@@ -10,6 +10,8 @@ Performing analysis on AirBnb data might be useful for a variety of interested p
 - Insights about host satisfaction and listing reviews
 - Correlation between important factors such as price or review score and other factors present
 
+Our presentation slides can be found in the Slide Deck PDF.
+
 ## Process
 The project uses ETL workflows to ingest data into the database. We use Pandas to extract and transform the data, then save it to new CSV files. To demonstrate one possible option for the load step, we used PGAdmin to create tables using SQL; five tables in total. An ERD document is included in multiple formats in the folder named "ERD".
 

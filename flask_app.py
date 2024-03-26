@@ -87,6 +87,13 @@ def colsHosts(deliniated):
     return json.loads(hosts.iloc[:, int_nums].to_json())
 # ===== ===== =====
 
+@app.route("/api/v1.0/columns")
+def columnsInfo():
+    explain1 = 'To get a pair of columns from the hosts and/or listings table to analyze, go to /api/v1.0/...;"'
+    explain2 = 'Where "..." are the exact names of two columns on the listings and/or hosts tables broken by a "/" character.'
+    explain3 = 'For more information on the column names, go to "/api/v1.0/listings" or "/api/v1.0/hosts"'
+    return explain1 + '<br>' + explain2 + '<br>' + explain3
+
 # for simplicity, v1.0 only looks in hosts/listings tables, 
 # but we could extend functionality to all tables by reformatting the if/else block
 @app.route("/api/v1.0/<col_1>/<col_2>")
